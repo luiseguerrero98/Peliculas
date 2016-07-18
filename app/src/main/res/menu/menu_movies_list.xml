@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".movielist.ui.MovieListActivity">
+    <item
+        android:id="@+id/action_main"
+        android:title="@string/movielist.menu.action.main"
+        android:icon="@android:drawable/ic_menu_gallery"
+        app:showAsAction="never" />
+
+<!--    <item
+        android:id="@+id/action_popular"
+        android:title="@string/menu.action.popular"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_billboard"
+        android:title="@string/menu.action.billboard"
+        app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="@string/menu.action.logout"
+        app:showAsAction="never" />
+
+
+</menu>
